@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
                 //children child = new children(thename);
                // ref.push().setValue(child);
                // prog.dismiss();
-                Toast.makeText(getApplication(), "تم الحفظ بنجاح", Toast.LENGTH_LONG).show();
+                //Toast.makeText(getApplication(), "تم ادخال البيانات بنجاح", Toast.LENGTH_LONG).show();
                 what.setText("يبدو أن طفلك يعاني من مشكله تؤثر على مستوى نموه ! الرجاء مراجعة المختص في أسرع وقت");
 
             } else if(b11.isChecked() || b22.isChecked() || b33.isChecked() ||b44.isChecked()) {
@@ -167,8 +167,8 @@ public class MainActivity extends AppCompatActivity {
                // children child = new children(thename);
                // ref.push().setValue(child);
                // prog.dismiss();
-                Toast.makeText(getApplication(), "تم الحفظ بنجاح", Toast.LENGTH_LONG).show();
-                what.setText("تظهر نتيجة ايجاباتك أن طفلك لا يعاني من مشاكل في مستوى النمو ، لاداعي لمراجعه المختص");
+                //Toast.makeText(getApplication(), "تم ادخال البيانات بنجاح", Toast.LENGTH_LONG).show();
+                what.setText("تظهر نتيجة اجاباتك أن طفلك لا يعاني من مشاكل في مستوى النمو ، لاداعي لمراجعه المختص");
             }
             else {
                 Toast.makeText(MainActivity.this, "الرجاء الإجابة على الأسئلة",Toast.LENGTH_LONG).show();

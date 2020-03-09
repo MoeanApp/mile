@@ -13,91 +13,57 @@
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
             android:text="صفحة الطفل الشخصية"
             android:textAlignment="center"
             android:textSize="24sp" />
 
         <TextView
             android:id="@+id/textView26"
-            android:layout_width="154dp"
+            android:layout_width="200dp"
             android:layout_height="23dp"
             android:layout_marginStart="2dp"
             android:layout_marginEnd="256dp"
-            android:layout_marginTop="170dp"
+            android:layout_marginTop="60dp"
             android:layout_below="@+id/textView5"
             android:text="نعم             لا"
             android:textAlignment="center"/>
 
 
-
-       <!-- <TextView
-            android:id="@+id/textView33"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="300dp"
-            android:layout_below="@+id/textView5"
-            android:layout_marginTop="50dp"
-            android:layout_marginEnd="18dp"
-            android:layout_marginBottom="17dp"
-            android:text="إسم الطفل:"
-            android:textSize="15dp"
-            /> -->
-
         <TextView
             android:id="@+id/birthdate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/textView5"
-            android:layout_marginEnd="18dp"
-            android:layout_marginStart="300dp"
-            android:layout_marginBottom="58dp"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginBottom="600dp"
+            android:layout_below="@+id/textView5"
             android:text="تاريخ الميلاد :"
             android:textSize="15dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+             />
 
-       <!-- <EditText
-            android:id="@+id/name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="37dp"
-            android:layout_marginBottom="2dp"
-            android:layout_below="@+id/textView5"
-            android:ems="10"
-            android:hint="أدخل الإسم هنا"
-            android:inputType="textPersonName"
-            app:layout_constraintEnd_toStartOf="@+id/textView33"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />-->
 
         <TextView
             android:id="@+id/date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="200dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="44dp"
-            android:layout_below="@+id/textView5"
-            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginBottom="600dp"
+            android:layout_alignBaseline="@+id/birthdate"
             android:hint="اختر من التقويم"
-            app:layout_constraintEnd_toStartOf="@+id/birthdate"
-            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+           />
         <TextView
             android:id="@+id/age"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
             android:layout_marginStart="50dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="44dp"
-            android:layout_below="@+id/textView5"
-            android:layout_marginBottom="7dp"
+            android:layout_marginBottom="600dp"
+            android:layout_alignBaseline="@+id/date"
             android:hint="العمر"
-            app:layout_constraintEnd_toStartOf="@+id/birthdate"
-            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+             />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fb"
@@ -105,31 +71,30 @@
             android:layout_height="30dp"
             android:clickable="true"
             android:layout_marginStart="120dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="44dp"
-            android:layout_below="@+id/textView5"
-            android:layout_marginBottom="7dp"
-            app:layout_constraintEnd_toStartOf="@+id/birthdate"
-            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            android:layout_marginEnd="440dp"
+            android:layout_alignBaseline="@+id/birthdate"
+            android:layout_marginBottom="100dp"
+
              />
 
         <TextView
             android:id="@+id/first"
-            android:layout_width="wrap_content"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="325dp"
-            android:layout_marginTop="300dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="180dp"
             android:hint="السؤال الأول"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+             />
 
         <TextView
             android:id="@+id/second"
-            android:layout_width="wrap_content"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="326dp"
-            android:layout_marginTop="350dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="230dp"
             android:hint="السؤال الثاني"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -137,10 +102,10 @@
 
         <TextView
             android:id="@+id/third"
-            android:layout_width="wrap_content"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="330dp"
-            android:layout_marginTop="400dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="280dp"
             android:hint="السؤال الثالث"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -148,10 +113,10 @@
 
         <TextView
             android:id="@+id/forth"
-            android:layout_width="wrap_content"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="320dp"
-            android:layout_marginTop="450dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="330dp"
             android:hint="السؤال الرابع"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -159,13 +124,13 @@
 
         <TextView
             android:id="@+id/what"
-            android:layout_width="wrap_content"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="170dp"
-            android:layout_marginTop="320dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="490dp"
             android:layout_marginEnd="44dp"
-            android:layout_below="@+id/age"
             android:layout_marginBottom="7dp"
+            android:textAlignment="center"
             android:hint="النتيجة"
              />
 
@@ -173,12 +138,12 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="150dp"
+            android:layout_marginStart="50dp"
             android:layout_marginTop="250dp"
-            android:layout_marginEnd="150dp"
+            android:layout_marginEnd="50dp"
             android:layout_marginBottom="11dp"
             android:layout_below="@+id/textView26"
-            android:text="حفظ البيانات "
+            android:text="أظهر النتيجة "
             android:textColor="@color/colorPrimary"/>
 
         <TextView
@@ -204,14 +169,16 @@
         <RadioGroup
             android:id="@+id/group1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+
+            >
 
             <RadioButton
                 android:id="@+id/b1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginTop="290dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="170dp"
                 android:layout_marginEnd="60dp"
                 android:layout_marginBottom="1dp"
                 />
@@ -219,7 +186,7 @@
                 android:id="@+id/b11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="85dp"
+                android:layout_marginStart="60dp"
                 android:layout_marginTop="-33dp"
                 android:layout_marginEnd="60dp"
                 android:layout_marginBottom="1dp"
@@ -235,8 +202,8 @@
                 android:id="@+id/b2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginTop="340dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="220dp"
                 android:layout_marginEnd="60dp"
                 android:layout_marginBottom="1dp"
                 />
@@ -244,7 +211,7 @@
                 android:id="@+id/b22"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="85dp"
+                android:layout_marginStart="60dp"
                 android:layout_marginTop="-33dp"
                 android:layout_marginEnd="60dp"
                 android:layout_marginBottom="1dp"
@@ -260,8 +227,8 @@
                 android:id="@+id/b3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginTop="390dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="270dp"
                 android:layout_marginEnd="60dp"
                 android:layout_marginBottom="1dp"
                 />
@@ -269,7 +236,7 @@
                 android:id="@+id/b33"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="85dp"
+                android:layout_marginStart="60dp"
                 android:layout_marginTop="-33dp"
                 android:layout_marginEnd="60dp"
                 android:layout_marginBottom="1dp"
@@ -285,8 +252,8 @@
                 android:id="@+id/b4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginTop="440dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="320dp"
                 android:layout_marginEnd="60dp"
                 android:layout_marginBottom="1dp"
                 />
@@ -294,7 +261,7 @@
                 android:id="@+id/b44"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="85dp"
+                android:layout_marginStart="60dp"
                 android:layout_marginTop="-33dp"
                 android:layout_marginEnd="60dp"
                 android:layout_marginBottom="1dp"
