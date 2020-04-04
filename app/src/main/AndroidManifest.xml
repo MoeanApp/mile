@@ -9,6 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".themaincare"></activity>
+        <activity android:name=".videoscare" />
+        <activity android:name=".upload_video" />
+        <activity android:name=".select_date_and_time" />
+        <activity android:name=".massage" />
+        <activity android:name=".location" />
+        <activity android:name=".Convercation_for_caregiver" />
+        <activity android:name=".register" />
+        <activity android:name=".login_or_signin" />
+        <activity android:name=".login" />
+        <activity android:name=".advisor_profile" />
+        <activity android:name=".videos" />
+        <activity android:name=".convercation" />
+        <activity android:name=".calendar" />
+        <activity android:name=".themain" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

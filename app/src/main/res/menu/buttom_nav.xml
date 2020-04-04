@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+
+        android:id="@+id/bn1"
+        android:icon="@drawable/ic_chat_bubble_black_24dp"
+        android:title="الإستشارات"
+        />
+
+    <item
+        android:id="@+id/bn2"
+        android:icon="@drawable/ic_location_on_black_24dp"
+        android:title="متابعة الطفل"
+        />
+    <item
+        android:id="@+id/bn3"
+        android:icon="@drawable/ic_perm_contact_calendar_black_24dp"
+        android:title="التقويم" />
+
+
+</menu>

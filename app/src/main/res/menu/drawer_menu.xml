@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view"
+
+
+    >
+
+    <group android:checkableBehavior="single"
+
+        >
+        <item
+            android:id="@+id/nav_childprofile"
+            android:icon="@drawable/user"
+            android:title="صفحة الطفل الشخصية" />
+
+
+        <!-- <item
+             android:id="@+id/nav_location"
+             android:icon="@drawable/ic_location_on_black_24dp"
+             android:title="متابعة الطفل"
+             />-->
+
+        <item
+            android:id="@+id/nav_progress"
+            android:icon="@drawable/ic_perm_contact_calendar_black_24dp"
+            android:title="مستوى تقدم الطفل"
+
+            />
+
+        <item
+            android:id="@+id/nav_videoforcaregiver"
+            android:icon="@drawable/ic_video_library_black_24dp"
+            android:title="مقاطع الفديو"
+
+            />
+
+
+
+
+        <item
+            android:id="@+id/nav_who_is_moean_for_caregiver"
+            android:icon="@drawable/who_is_moean"
+            android:title="من نحن؟"
+
+            />
+
+    </group>
+    <item
+        android:id="@+id/nav_signout"
+        android:icon="@drawable/signout"
+        android:title="تسجيل خروج" />
+
+
+</menu>
